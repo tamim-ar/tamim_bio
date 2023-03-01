@@ -1,0 +1,43 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+/* navigation bar */
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #B74C4C6B;
+    width: 100%;
+    position: fixed;
+    max-width: 100%;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 60px;
+}
+
+.section {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.nav-title a {
+    font-family: 'Pattaya', sans-serif;
+    font-weight: 400;
+    font-size: 34px;
+    text-decoration: none;
+    letter-spacing: 0.245em;
+    color: #000000;
+}
