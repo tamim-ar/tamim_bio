@@ -101,7 +101,138 @@ nav li {
     color: rgba(0, 0, 0, 0.57);
 }
 
-.bio_text p a{
+.bio_text p a {
     text-decoration: none;
     color: whitesmoke;
+}
+
+/* work section */
+
+.work{
+    display: flex;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    align-items: center;
+    justify-content: space-around;
+    gap: 100px;
+}
+
+.work_text{
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 54px;
+    letter-spacing: 0.245em;
+    color: black;
+    margin-bottom: 2%;
+}
+
+.work_details{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 54px;
+    letter-spacing: 0.245em;
+    color: black;
+    margin-bottom: 2%;
+}
+
+.work_part_1 img{
+    width: 350px;
+    padding: 40px;
+    background-color: #B74C4C6B;
+}
+
+.work_head .bio_button{
+    background-color: #B74C4C6B;
+    border-radius: 0%;
+}
+
+.work_1 {
+    display: flex;
+    margin-top: 6%;
+    margin-bottom: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    gap: 100px;
+}
+
+/* footer_part */
+
+.footer_part {
+    display: flex;
+    gap: 2%;
+    background-image: linear-gradient(to top, white, #e49b9b);
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    justify-content: space-between;
+
+}
+
+.footer_part img {
+    width: 15%;
+}
+
+.image_1 {
+    margin-bottom: 10%;
+}
+
+.image_2 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.image_3 {
+    margin-top: 10%;
+}
+
+.image_4 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.image_5 {
+    margin-bottom: 10%;
+}
+
+.footer_head{
+    font-family: 'Pattaya';
+    font-weight: 200;
+    font-size: 36px;
+    letter-spacing: 0.245em;
+    text-align: center;
+    background-color: #e49b9b;
+    color: #FFFFFF;
+    margin-bottom: 2%;
+    margin-bottom: 0%;
+    padding-top: 2%;
+    text-align: center;
+}
+
+footer p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1%;
+    margin-bottom: 2%;
+}
+
+footer p a {
+    text-decoration: none;
+    color: gray;
+    font-size: larger;
+}
+
+.rights_reserved p{
+    font-family: 'Pattaya';
+    color: aliceblue;
+    background-color: black;
+    font-weight: 100;
+    font-size: 14px;
+    padding: 0.5%;
 }
