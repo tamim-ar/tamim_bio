@@ -84,7 +84,7 @@ nav li {
 .bio_button {
     background: rgba(255, 255, 255, 0.49);
     color: rgba(0, 0, 0, 0.57);
-    border-radius: 9px;
+    border-radius: 1px;
     font-weight: 200;
     font-size: 24px;
     text-align: center;
@@ -94,6 +94,11 @@ nav li {
     padding-left: 3.25%;
     padding-right: 3.25%;
     margin-bottom: 2%;
+}
+
+.bio_button:hover {
+    background-color: none;
+    border: 2px dashed salmon;
 }
 
 .bio_button a {
@@ -108,7 +113,7 @@ nav li {
 
 /* work section */
 
-.work{
+.work {
     display: flex;
     margin-top: 2%;
     margin-bottom: 2%;
@@ -119,7 +124,7 @@ nav li {
     gap: 100px;
 }
 
-.work_text{
+.work_text {
     font-weight: 500;
     font-size: 32px;
     line-height: 54px;
@@ -128,7 +133,7 @@ nav li {
     margin-bottom: 2%;
 }
 
-.work_details{
+.work_details {
     font-weight: 300;
     font-size: 16px;
     line-height: 54px;
@@ -137,13 +142,13 @@ nav li {
     margin-bottom: 2%;
 }
 
-.work_part_1 img{
+.work_part_1 img {
     width: 350px;
     padding: 40px;
     background-color: #B74C4C6B;
 }
 
-.work_head .bio_button{
+.work_head .bio_button {
     background-color: #B74C4C6B;
     border-radius: 0%;
 }
@@ -200,7 +205,7 @@ nav li {
     margin-bottom: 10%;
 }
 
-.footer_head{
+.footer_head {
     font-family: 'Pattaya';
     font-weight: 200;
     font-size: 36px;
@@ -214,7 +219,7 @@ nav li {
     text-align: center;
 }
 
-footer p{
+footer p {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -228,7 +233,7 @@ footer p a {
     font-size: larger;
 }
 
-.rights_reserved p{
+.rights_reserved p {
     font-family: 'Pattaya';
     color: aliceblue;
     background-color: black;
