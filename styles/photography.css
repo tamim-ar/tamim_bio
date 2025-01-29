@@ -1,3 +1,4 @@
+/* Default Styles */
 main {
     margin-top: 5px;
 }
@@ -28,7 +29,7 @@ img {
 }
 
 .second-row-third-container div {
-    height: calc(50% - 5px/2);
+    height: calc(50% - 5px / 2);
 }
 
 .third-row-second-container {
@@ -41,6 +42,9 @@ img {
     flex: 1;
 }
 
+/* Responsive Design */
+
+/* Small Devices (Mobile phones, 576px and smaller) */
 @media screen and (max-width: 576px) {
 
     .second-row,
@@ -51,10 +55,79 @@ img {
     .third-row-second-container {
         grid-template-columns: repeat(1, 1fr);
     }
+
+    .second-row-third-container div {
+        height: calc(50% - 5px / 2);
+    }
+
+    /* Ensuring images fit properly on smaller screens */
+    img {
+        object-fit: cover;
+        height: auto;
+        width: 100%;
+    }
 }
 
-@media screen and (min-width: 577px) {
+/* Medium Devices (Tablets, 577px to 768px) */
+@media screen and (min-width: 577px) and (max-width: 768px) {
+    .row {
+        height: 300px;
+        /* Adjusting the row height for tablets */
+    }
+
+    .second-row,
+    .third-row {
+        gap: 10px;
+    }
+
+    /* Ensuring second-row items fit neatly */
+    .second-row>div {
+        flex: 1;
+        padding: 10px;
+    }
+
+    .second-row-third-container div {
+        height: calc(50% - 5px / 2);
+    }
+
+    .third-row-second-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    img {
+        object-fit: cover;
+        height: auto;
+        width: 100%;
+    }
+}
+
+/* Large Devices (Laptops and Desktops, 769px and up) */
+@media screen and (min-width: 769px) {
     .row {
         height: 400px;
+        /* Default height for desktop */
+    }
+
+    .second-row,
+    .third-row {
+        gap: 15px;
+    }
+
+    .second-row>div {
+        padding: 20px;
+    }
+
+    .second-row-third-container {
+        gap: 15px;
+    }
+
+    .third-row-second-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    img {
+        object-fit: cover;
+        height: auto;
+        width: 100%;
     }
 }
